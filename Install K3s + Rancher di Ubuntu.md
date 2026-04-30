@@ -237,9 +237,8 @@ Sekarang kamu sudah punya:
 * [https://helm.sh](https://helm.sh)
 * [https://cert-manager.io](https://cert-manager.io)
 
-```
+
 
 Kalau nanti kamu mau, saya bisa bantu bikin:
 - versi **HA (3 control plane + external etcd)**
 - atau tambahin **diagram arsitektur (biar repo kamu keliatan profesional)**
-```
