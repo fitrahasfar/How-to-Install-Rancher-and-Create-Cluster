@@ -47,7 +47,7 @@ sudo k3s kubectl get nodes
 mkdir -p ~/.kube
 sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
 sudo chown $USER:$USER ~/.kube/config
-export KUBECONFIG=$HOME/.kube/config
+chmod 600 ~/.kube/config
 ```
 
 (Optional) Hapus env lama:
