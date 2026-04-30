@@ -48,7 +48,11 @@ mkdir -p ~/.kube
 sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
 sudo chown $USER:$USER ~/.kube/config
 chmod 600 ~/.kube/config
+nano ~/.bashrc
+export KUBECONFIG=$HOME/.kube/config               # Tambahkan baris paling bawah dan save
+source ~/.bashrc
 ```
+
 
 (Optional) Hapus env lama:
 
