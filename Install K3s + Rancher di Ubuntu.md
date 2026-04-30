@@ -1,4 +1,3 @@
-````md
 # 🚀 Install K3s + Rancher di Ubuntu (Step-by-Step)
 
 Panduan ini membantu kamu setup:
